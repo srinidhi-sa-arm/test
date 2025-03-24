@@ -8,9 +8,9 @@
   <!-- Change remote for ART optimization related projects -->
   <extend-project name="platform/art" remote="oss-gerrit-art" />
   <!-- Add ART test scripts and benchmarks -->
-  <project path="scripts" name="art-build-scripts" revision="sandbox/mohhus02/parameterise-ci-trigger" remote="oss-gerrit-art" />
+  <project path="scripts" name="art-build-scripts" revision="master" remote="oss-gerrit-art" />
   <project path="external-benchmarks" name="art-external-benchmarks" revision="master" remote="oss-gerrit-art" />
   <project path="benchmarks" name="art-testing" revision="master" remote="oss-gerrit-art" />
   <!-- Change remote for ART target to run art target tests -->
-  <extend-project name="device/generic/art" revision="sandbox/mohhus02/parameterise-ci-trigger" remote="oss-gerrit-art" />
+  <extend-project name="device/generic/art" remote="oss-gerrit-art" />
 </manifest>
